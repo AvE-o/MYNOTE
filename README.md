@@ -2,3 +2,4 @@
 EveryDAY i guess(?)
 
 ### Wed Oct 12:
+Review HashMap
