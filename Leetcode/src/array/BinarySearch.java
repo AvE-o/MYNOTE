@@ -2,7 +2,7 @@ package array;
 // target in ascending order
 // O(log n)
 // left close right close
-public class binarysearch {
+public class BinarySearch {
     public int search(int[] nums, int target) {
         if (target < nums[0] || target > nums[nums.length - 1]) {
             return -1;
