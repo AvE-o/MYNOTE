@@ -16,7 +16,13 @@ public class HashMaptest {
         happy.put("b", 3);
         happy.put("c", 88);
 
-        System.out.println(happy);
-        System.out.println(happy.get("c"));
+        int loop = 0;
+        while (loop++ < 10) {
+            System.out.print(loop);
+        }
+
+
+        //System.out.println(happy);
+        //System.out.println(happy.get("c"));
     }
 }
