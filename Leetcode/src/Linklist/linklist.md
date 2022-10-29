@@ -1,21 +1,10 @@
 # Linklist Note
 
-public class ListNode {
-    int val;
-    # test change
-    ListNode next;
-    
-    public ListNode() {
-    }
-    
-    public ListNode() {
-        this.val = val;
-    }
-    
-    public ListNode() {
-        this.val = val;
-        this.next = next;
-    }
-    
-}
+Linked List summary
+- single double loop
+- They store in different place in memory
+
+
+Using a dummy head would be helpful in problem solving
+- in the case need to use the prev node
 
