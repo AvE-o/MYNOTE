@@ -1,19 +1,21 @@
 package array;
 
-public class SquaresofaSortedArray {
+public class SquaresofaSortedArray978 {
+    // double pointer
     public int[] sortedSquares(int[] nums) {
-        int index = nums.length - 1;
         int i = 0;
         int j = nums.length - 1;
+        int index = nums.length - 1;
+
+        // creat a new array
         int[] result = new int[nums.length];
         while (i <= j) {
-            if (nums[i] * nums[i] > nums[j] * nums[j] ) {
-                result[index--] = nums[i] * nums[i];
-                i++;
-            }
-            else {
+            if (nums[i] * nums[i] <= nums[j] * nums[j]) {
                 result[index--] = nums[j] * nums[j];
                 j--;
+            } else {
+                result[index--] = nums[i] * nums[i];
+                i++;
             }
         }
         return result;
