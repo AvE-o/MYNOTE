@@ -1,6 +1,6 @@
 package array;
 
-public class SquaresofaSortedArray978 {
+public class SquaresofaSortedArray977 {
     // double pointer
     public int[] sortedSquares(int[] nums) {
         int i = 0;
