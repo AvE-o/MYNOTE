@@ -5,4 +5,5 @@ EveryDAY i guess(?)
 Review HashMap
 Binarysearch
 
-### T
+### Fri Nov 4:
+Need find a time to "整理"　git
