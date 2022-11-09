@@ -1,3 +1,5 @@
+package Hashtable;
+
 public class ThreeSum15 {
     public List<List<Integer>> threeSum(int[] nums) {
         // a + b + c = 0
