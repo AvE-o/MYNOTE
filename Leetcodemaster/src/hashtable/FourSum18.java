@@ -1,4 +1,4 @@
-package Hashtable;
+package hashtable;
 
 public class FourSum18 {
     public List<List<Integer>> fourSum(int[] nums, int target) {

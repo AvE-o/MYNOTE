@@ -1,4 +1,4 @@
-package Linklist;
+package linklist;
 
 public class IntsersectionofTwoLinkedLists160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

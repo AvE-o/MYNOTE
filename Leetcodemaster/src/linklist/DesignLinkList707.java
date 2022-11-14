@@ -1,4 +1,4 @@
-package Linklist;
+package linklist;
 
 // My linklist define has some problem in it;
 // Singly linked list

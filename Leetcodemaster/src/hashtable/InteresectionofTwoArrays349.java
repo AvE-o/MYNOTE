@@ -1,4 +1,4 @@
-package Hashtable;
+package hashtable;
 
 public class InteresectionofTwoArrays349 {
 

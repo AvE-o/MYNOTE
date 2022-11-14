@@ -1,4 +1,4 @@
-package Linklist;
+package linklist;
 
 public class RemoveNthNodeFromEndofList19 {
     // my approach

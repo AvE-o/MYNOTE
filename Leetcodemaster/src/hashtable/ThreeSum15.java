@@ -1,4 +1,4 @@
-package Hashtable;
+package hashtable;
 
 public class ThreeSum15 {
     public List<List<Integer>> threeSum(int[] nums) {

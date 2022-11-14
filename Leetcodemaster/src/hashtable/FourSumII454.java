@@ -1,4 +1,4 @@
-package Hashtable;
+package hashtable;
 
 public class FourSumII454 {
     public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {

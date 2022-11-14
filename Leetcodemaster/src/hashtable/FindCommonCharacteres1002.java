@@ -1,4 +1,4 @@
-package Hashtable;
+package hashtable;
 
 // using hash table
 public class FindCommonCharacteres1002 {

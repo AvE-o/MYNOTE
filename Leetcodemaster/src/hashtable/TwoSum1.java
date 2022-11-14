@@ -1,4 +1,4 @@
-package Hashtable;
+package hashtable;
 
 public class TwoSum1 {
     // using Hashtalbe instead of double for loop to improve efficiency

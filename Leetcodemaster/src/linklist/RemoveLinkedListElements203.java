@@ -1,4 +1,4 @@
-package Linklist;
+package linklist;
 
 // My solution
 public class RemoveLinkedListElements203 {

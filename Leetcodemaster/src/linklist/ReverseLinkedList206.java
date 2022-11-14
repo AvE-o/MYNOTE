@@ -1,4 +1,4 @@
-package Linklist;
+package linklist;
 /**
  * Definition for singly-linked list.
  * public class ListNode {

@@ -1,4 +1,4 @@
-package Linklist;
+package linklist;
 
 public class SwapNodesinPairs24 {
     // my approach (incorrect)

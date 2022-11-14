@@ -1,6 +1,6 @@
-package Hashtable;
+package hashtable;
 
-public class RemoveLinkedListElements203 {
+public class HappyNumber202 {
     // for loops endlessly in a cycle. The sum must be apper duplicate.
     public boolean isHappy(int n) {
         Set<Integer> set = new HashSet<>();
