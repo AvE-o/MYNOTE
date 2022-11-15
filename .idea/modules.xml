@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JAVA_review/JAVA.iml" filepath="$PROJECT_DIR$/JAVA_review/JAVA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetcodemasterReview/Leetcode.iml" filepath="$PROJECT_DIR$/LeetcodemasterReview/Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcodemaster/Leetcodemaster.iml" filepath="$PROJECT_DIR$/Leetcodemaster/Leetcodemaster.iml" />
       <module fileurl="file://$PROJECT_DIR$/MYNOTE.iml" filepath="$PROJECT_DIR$/MYNOTE.iml" />
     </modules>
