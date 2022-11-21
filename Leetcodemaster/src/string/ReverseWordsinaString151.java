@@ -1,4 +1,4 @@
-package reversestring;
+package string;
 
 public class ReverseWordsinaString151 {
     // My approach 思路正确 代码有些许错误

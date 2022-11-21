@@ -1,4 +1,4 @@
-package reversestring;
+package string;
 
 public class ReverseString344 {
     // double pointer

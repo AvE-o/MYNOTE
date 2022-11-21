@@ -1,4 +1,4 @@
-package reversestring;
+package string;
 
 public class ReverseStringII541 {
     public String reverseStr(String s, int k) {

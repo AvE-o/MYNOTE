@@ -1,4 +1,4 @@
-package reversestring;
+package string;
 
 public class SubstituteSpace {
     public String replaceSpace(String s) {
