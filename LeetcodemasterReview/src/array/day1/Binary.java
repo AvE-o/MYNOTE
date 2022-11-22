@@ -1,8 +1,6 @@
 package array.day1;
 
-public class Array {
 
-}
 
 class BinarySearch704 {
     // O(log n)
