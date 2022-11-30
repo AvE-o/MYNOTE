@@ -10,3 +10,6 @@ Need find a time to "整理"　git
 
 ## Sun Nov 13:
 整理GIT.jpg
+
+## Tu Nov 29:
+记得复习array[ ]
