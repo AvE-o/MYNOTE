@@ -1,6 +1,6 @@
 package stackandqueue;
 
-public class ImplementQueueusingStacks {
+public class ImplementQueueusingStacks232 {
     // Stack
     Stack<Integer> stackIn;
     Stack<Integer> stackOut;
