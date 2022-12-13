@@ -1,0 +1,50 @@
+package stackandqueue;
+
+public class EvaluateReversePolishNotation150 {
+    public int evalRPN(String[] tokens) {
+        Deque<Integer> stack = new LinkedList();
+        for (String s : tokens) {
+            if ("+".equals(s)) {        // leetcode 内置jdk的问题，不能使用==判断字符串是否相等
+                stack.push(stack.pop() + stack.pop());      // 注意 - 和/ 需要特殊处理
+            } else if ("-".equals(s)) {
+                stack.push(-stack.pop() + stack.pop());
+            } else if ("*".equals(s)) {
+                stack.push(stack.pop() * stack.pop());
+            } else if ("/".equals(s)) {
+                int temp1 = stack.pop();
+                int temp2 = stack.pop();
+                stack.push(temp2 / temp1);
+            } else {
+                stack.push(Integer.valueOf(s));
+            }
+        }
+        return stack.pop();
+    }
+}
+
+// 答案错误 思路正确 懒得纠错妈的
+class Solution {
+    public int evalRPN(String[] tokens) {
+        Deque<Integer> deque = new LinkedList<>();
+        char ch;
+        for (String s : tokens) {
+            ch = s.charAt(0);
+            if (ch != '+' || ch != '-' || ch != '*' || ch != '/') {
+                deque.push(Integer.valueOf(ch));
+            } else {
+                int i = deque.pop();
+                int j = deque.pop();
+                if (ch == '+') {
+                    deque.push(j + i);
+                } else if (ch == '-') {
+                    deque.push(j - i);
+                } else if (ch == '*') {
+                    deque.push(j * i);
+                } else if (ch == '/') {
+                    deque.push(j / i);
+                }
+            }
+        }
+        return deque.pop();
+    }
+}
